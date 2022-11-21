@@ -61,8 +61,18 @@ local Tab2 = Window:MakeTab({
 	PremiumOnly = false
 })
 
-local creator = Tab:AddSection({
+local creator = Tab2:AddSection({
 	Name = "Creator"
+})
+
+creator:AddLabel("idk.#0420")
+
+Tab2:AddButton({
+	Name = "Quit",
+	Callback = function()
+	toggle = false
+      	OrionLib:Destroy()
+  	end    
 })
 
 creator:AddLabel("idk.#0420")
