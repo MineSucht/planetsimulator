@@ -75,8 +75,6 @@ Tab2:AddButton({
   	end    
 })
 
-creator:AddLabel("idk.#0420")
-
 while true do
     wait(2)
     print('look for planet')
