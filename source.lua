@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Planet Simulator", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "Planet Simulator", HidePremium = false, SaveConfig = true, ConfigFolder = "planetsimulator"})
 local _selectedPlanet = nil
 local massTarget = game.Players.LocalPlayer.Name.."MassTarget"
 
